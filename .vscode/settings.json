@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "lib/pages"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

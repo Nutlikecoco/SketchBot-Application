@@ -1,0 +1,25 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "sketchbot-app",
+                    "appId": "1:291698501941:android:ad037504c9e6ca2220847c",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "sketchbot-app",
+                    "configurations": {
+                        "android": "1:291698501941:android:ad037504c9e6ca2220847c",
+                        "ios": "1:291698501941:ios:bcbdc5008a4efc9920847c",
+                        "macos": "1:291698501941:ios:bcbdc5008a4efc9920847c",
+                        "web": "1:291698501941:web:e31e66470d0938b120847c",
+                        "windows": "1:291698501941:web:795d53d595bc844320847c"
+                    }
+                }
+            }
+        }
+    }
+}

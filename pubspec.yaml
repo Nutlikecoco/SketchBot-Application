@@ -1,0 +1,71 @@
+name: sketchbot_simulator
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_plugin_android_lifecycle: ^2.0.6
+  image_picker: ^1.2.0
+  shared_preferences: ^2.1.1
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  path_provider: ^2.1.4
+  uuid: ^4.5.0
+  flutter_painter_v2: ^2.1.0+1
+  image: ^4.2.0 
+  roslibdart: ^0.0.1-dev+4
+  video_player: ^2.9.2
+
+  # ✅ Firebase Gen 2 (compatible with existing code)
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.17.5
+  firebase_storage: ^11.7.7
+  firebase_app_check: ^0.2.2+2
+  google_sign_in: ^6.2.1
+  device_info_plus: ^10.1.0
+
+  share_plus: ^7.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/newlogo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/videos/cartoon1.mp4
+    - assets/videos/cartoon1up.mp4
+    - assets/videos/cartoon2.mp4
+    - assets/videos/cartoon2up.mp4
+    - assets/videos/cartoon3.mp4
+    - assets/videos/cartoon3up.mp4
+    - assets/videos/cartoon4.mp4
+    - assets/videos/cartoon4up.mp4
+    - assets/videos/lufy.mp4
+    - assets/videos/lufyup.mp4
+    - assets/videos/naruto.mp4
+    - assets/videos/narutoup.mp4
+    - assets/videos/hoshina.mp4
+    - assets/videos/hoshinaup.mp4
+    - assets/videos/capybara_cake.mp4
+    - assets/videos/capybara_cakeup.mp4     
+    - assets/videos/capybara_pudding.mp4
+    - assets/videos/capybara_puddingup.mp4   
+    - assets/videos/capybara_mac.mp4
+    - assets/videos/capybara_macupp.mp4   
